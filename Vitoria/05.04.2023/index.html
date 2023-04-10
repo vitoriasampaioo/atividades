@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+             <legend>Cadastro</legend>
+        
+        <label for="cNome">Nome</label>
+        <input type="text" id="cNome" required>
+        <br><br>
+        <p>onde você mora?</p>
+        <input type="radio">
+        <label for="">Cidade</label><br>
+        <input type="radio">
+        <label for="">Interio</label><br> <br> </fieldset>
+        <p>Qual meio de transporte você usa?</p>
+        <input type="checkbox">
+        <label for="">Bicicleta</label>
+        <input type="checkbox">
+        <label for="">Carro</label>
+        <input type="checkbox">
+        <label for="">Metro</label>
+        <input type="checkbox">
+        <label for="">Onibus</label><br><br> 
+        <label for="time">Selecione seu time</label><br><br>
+        <select name="" id="">
+            <option value="1">Palmeiras</option>
+            <option value="2">São paulo</option>
+            <option value="3">Santos</option>
+        </select> <br> <br>
+        <label>Escolha sua cidade</label>
+        <input autocomplete="on" list="cidadedes">
+       <datalist id="cidadedes">
+        <option value="São paulo"></option>
+        <option value="São sebastião"></option>
+        <option value="Guarulhos"></option>
+       </datalist> <br>
+       0 <input type="range"> 100 <br>
+       <textarea cols="30" rows="10"></textarea>
+
+
+        <input type="submit" value="encaminhar">
+    
+
+    </form>
+</body>
+</html>

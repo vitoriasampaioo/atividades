@@ -1,0 +1,8 @@
+table, th, td{
+    
+    border-collapse : collapse;
+}
+td,th{
+    
+    border-top: 2px blue solid;
+}

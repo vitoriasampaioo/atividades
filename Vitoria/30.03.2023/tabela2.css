@@ -1,0 +1,6 @@
+table, td{
+    border : solid 1px blue
+}
+table {
+    width: 500px;
+}

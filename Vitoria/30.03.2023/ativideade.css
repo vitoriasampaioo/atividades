@@ -1,0 +1,22 @@
+table{
+    border-style: solid;
+    border-color: black;
+    border-width: 1px
+    ;
+}
+th{
+    border-style: solid;
+    border-color: darkgreen;
+    border-width: 2px ; 
+    background-color: darkgreen;
+}
+td{
+    border-style: solid;
+    border-color: darkgray;
+    border-width: 2px;
+}
+
+.linha2{
+    color: darkgreen; 
+    background-color: darkgray;
+}
